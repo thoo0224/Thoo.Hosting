@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1418CC28-5EDA-469C-B4EC-73E681F959A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thoo.Hosting.Example", "..\example\Thoo.Hosting.Example\Thoo.Hosting.Example.csproj", "{178FD13D-E9DD-4B0E-AB85-B3D2F96B215E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thoo.Hosting", "src\Thoo.Hosting\Thoo.Hosting.csproj", "{F2B4C7B6-04F1-4FC4-8A2F-8695EE928C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{178FD13D-E9DD-4B0E-AB85-B3D2F96B215E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178FD13D-E9DD-4B0E-AB85-B3D2F96B215E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178FD13D-E9DD-4B0E-AB85-B3D2F96B215E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178FD13D-E9DD-4B0E-AB85-B3D2F96B215E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B4C7B6-04F1-4FC4-8A2F-8695EE928C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B4C7B6-04F1-4FC4-8A2F-8695EE928C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B4C7B6-04F1-4FC4-8A2F-8695EE928C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B4C7B6-04F1-4FC4-8A2F-8695EE928C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2B4C7B6-04F1-4FC4-8A2F-8695EE928C90} = {1418CC28-5EDA-469C-B4EC-73E681F959A8}
+	EndGlobalSection
+EndGlobal
