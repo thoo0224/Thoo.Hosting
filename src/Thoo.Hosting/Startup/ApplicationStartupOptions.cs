@@ -6,5 +6,5 @@ public class ApplicationStartupOptions
 {
     public Assembly? Assembly { get; set; }
     public bool ThrowOnException { get; set; } = true;
-    public bool RunStartupTasksInParallel { get; set; } = true;
+    public bool RunStartupTasksInParallel { get; set; } = false;
 }
