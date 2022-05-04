@@ -39,13 +39,13 @@ public class ApplicationStartupService : BackgroundService
         var taskCancellationToken = _cts.Token;
         if (_options.RunStartupTasksInParallel)
         {
-            _logger.LogDebug("Running {NumTasks} startup tasks in parallel.", tasks.Length);
+            _logger.LogDebug("Running {NumTasks} startup tasks in parallel", tasks.Length);
             await Parallel.ForEachAsync(tasks, taskCancellationToken, async (task, taskCt) =>
                 await ExecuteStartupTaskAsync(task, taskCt)).ConfigureAwait(false);
         }
         else
         {
-            _logger.LogDebug("Running {NumTasks} startup tasks sequentially.", tasks.Length);
+            _logger.LogDebug("Running {NumTasks} startup tasks sequentially", tasks.Length);
             foreach (var task in tasks)
                 await ExecuteStartupTaskAsync(task, taskCancellationToken).ConfigureAwait(false);
         }
